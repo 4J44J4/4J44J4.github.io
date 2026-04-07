@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #FFFFFF;
-    color: black;
+    color: white;
 }
 
 /*section {
@@ -72,7 +72,7 @@ p {
 
 .left {
     width: 32%;
-    padding: 60px;    
+    padding: 600px;    
     position: fixed;
     top: 0;
     left: 0;
