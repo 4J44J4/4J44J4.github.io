@@ -113,12 +113,20 @@ body {
 }
 
 @media (max-width: 768px) {
-  .left-panel {
-    width: 100%;
-    position: relative;
-    padding: 30px;
-  }
-  .right-panel {
-    margin-left: 0;
-  }
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        position: relative !important;   /* override any fixed positioning */
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+
+    .right {
+        margin-left: 0 !important;       /* remove left margin */
+        width: 100% !important;
+        padding: 20px;
+    }
 }
