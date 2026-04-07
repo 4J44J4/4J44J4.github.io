@@ -113,10 +113,20 @@ body {
 }
 
 @media (max-width: 768px) {
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 10px;
-  }
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        position: relative !important;   /* override any fixed positioning */
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+
+    .right {
+        margin-left: 0 !important;       /* remove left margin */
+        width: 100% !important;
+        padding: 20px;
+    }
 }
