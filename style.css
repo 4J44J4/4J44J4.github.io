@@ -111,3 +111,14 @@ body {
     margin-top: 8px;
     line-height: 1.4;
 }
+
+@media (max-width: 768px) {
+  .left-panel {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+  }
+  .right-panel {
+    margin-left: 0;
+  }
+}
