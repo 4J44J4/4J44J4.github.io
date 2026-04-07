@@ -113,12 +113,10 @@ body {
 }
 
 @media (max-width: 768px) {
-  .left-panel {
-    width: 100%;
-    position: relative;
-    padding: 30px;
-  }
-  .right-panel {
-    margin-left: 0;
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
   }
 }
