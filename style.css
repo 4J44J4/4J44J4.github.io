@@ -123,6 +123,10 @@ background: rgba(19, 19, 19, 0.412);
     color: rgba(255, 255, 255, 0.797);
 }
 
+.space {
+    margin-top: 0px;
+}
+
 @media (max-width: 1200px) {
     .container {
         flex-direction: column;
@@ -220,4 +224,9 @@ h3{
     .break {
         margin-top: 1px;
 }
+
+    .space {
+    margin-top: 30px;
+}
+    
 }
