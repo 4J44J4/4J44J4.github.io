@@ -109,6 +109,7 @@ background: rgba(19, 19, 19, 0.412);
     position: fixed;
     bottom: 40px;
     left: 60px;
+    background: rgba(19, 19, 19, 0.412);
 }
 
 .break {
@@ -120,7 +121,7 @@ background: rgba(19, 19, 19, 0.412);
 }
 
 .contact-header {
-    color: rgba(255, 255, 255, 0.797);
+    background: rgba(19, 19, 19, 0.412);
 }
 
 .space {
