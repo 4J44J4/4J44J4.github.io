@@ -149,12 +149,6 @@ background: rgba(19, 19, 19, 0.412);
         width: 90%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 h1{
     font-size: 70px;
 }
