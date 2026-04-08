@@ -152,7 +152,7 @@ background: rgba(19, 19, 19, 0.412);
 
 
 h2 {
-    font-size: 70px;
+    font-size: 100px;
 }
 
 p {
@@ -166,7 +166,7 @@ p {
 }
 
 h3{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .contact-header {
@@ -203,7 +203,7 @@ h3{
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
-        font-size: 80px;
+        font-size: 100px;
     }
 
     .contact-section {
